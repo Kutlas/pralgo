@@ -53,7 +53,7 @@ print(webs)
 many = 0
 while True:
     if ( many < 1 ) :
-        sval = input('How many pages:')
+        sval = input('How many pages: ')
         if ( len(sval) < 1 ) : break
         many = int(sval)
     many = many - 1
